@@ -20,42 +20,44 @@
 
 
     </header>
-    <div>
+    <div class="container-fluid pageContainer">
+      <div class="row">
         <div class="col-12 col-md-3 col-xl-3 searchPar">
             <h4>
                 Search Weather for City:
             </h4>
 
 
-            <div class="input-group  mb-3">
+            <div class="input-group  mb-3 ">
                 <input type="text" class="form-control textVal" placeholder="Hartford...">
                 <div class="input-group-append btnPar">
                     <button class="btn btn-primary city" type="button"><i class="fas fa-search"></i></button>
                 </div>
             </div>
 
-            <div class="container recentVisit">fhdhthfxghgfhjf</div>
+            <div class="container recentVisit"></div>
 
         </div>
-    </div>
+    
 
-    <div class="col-12 col-md-9 col-xl-9 ">
+        <div class="col-12 col-md-9 col-xl-9 ">
 
-        <div class="row today">
+            <div class="row today">
 
-            <div class="card bg-light mb-3 " style="max-width: 400px;">
-                <h2 class="card-header cardTodayCityName"></h2>
-                <h3 class="card-header dateToday"></h3>
-                <img class="icons" />
-                <div class="card-body currentCityToday">
+                <div class="card bg-light mb-3" style="max-width: 400px;">
+                    <h2 class="card-header cardTodayCityName">Weather Today</h2>
+                    <h3 class="card-header dateToday"></h3>
+                    <img class="icons" />
+                    <div class="card-body currentCityToday">
+                    </div>
                 </div>
+
             </div>
 
+            <div class="row upcomingFive"></div>
+
         </div>
-
-        <div class="row upcomingFive"></div>
-
-    </div>
+      </div>  
     </div>
 
 
